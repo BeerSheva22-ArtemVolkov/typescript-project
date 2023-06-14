@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noImplicitAny": true, //Нужно указывать тип переменных
+    "removeComments": true, //Удаление комментов при пуше?
+    "preserveConstEnums": true, //
+    "outDir": "build",
+    "sourceMap": true, //Позволяет сделать связи ts и js для дебага
+    "esModuleInterop": true, //Подули взаимозаменяемы 
+    "resolveJsonModule": true, //Позволяет получение json и интерпритации его в объект
+    "lib": ["ES2015", "DOM"]
+  },
+  "include": ["src/**/*"], //что должно включаться в output
+  "exclude": ["**/*.spec.ts"] //что не должно включаться в output
+}
