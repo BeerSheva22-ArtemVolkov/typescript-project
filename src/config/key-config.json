@@ -1,0 +1,6 @@
+{
+    "keyUpdateInterval": 60000,
+    "minCode": 32,
+    "maxCode": 127,
+    "alphabetLength": 96
+}
